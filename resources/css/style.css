@@ -19,14 +19,17 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-.clearfix {zoom: 1}
+.clearfix {
+    zoom: 1
+}
+
 .clearfix:after {
     content: '.';
     clear: both;
     display: block;
     height: 0;
     visibility: hidden;
-    }
+}
 
 /* -------------------------------- */
 
@@ -204,10 +207,10 @@ header {
 }
 
 /* -------FEATURES------- */
+
 .section-features .long-copy {
     margin-bottom: 30px;
 }
-
 
 /* -------MEALS------- */
 
@@ -247,6 +250,7 @@ header {
 }
 
 /* HOW IT WORKS */
+
 .section-steps {
     background-color: #f4f4f4;
 }
