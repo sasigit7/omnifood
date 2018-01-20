@@ -189,6 +189,20 @@ header {
     transition: border-bottom 0.2s;
 }
 
+/* -------MOBILE NAV------- */
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
@@ -480,7 +494,7 @@ cite img {
 .plan-price {
     font-size: 300%;
     margin-bottom: 10px;
-    font-weight: 100;
+    font-weight: 300;
     color: #e67e22;
 }
 
