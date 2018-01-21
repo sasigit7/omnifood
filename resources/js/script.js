@@ -75,4 +75,21 @@ $(document).ready(function () {
             icon.removeClass('ion-close-round');
         }
     });
+    /* MAPS */
+    var map = new GMaps({
+        div: '.map',
+        lat: 51.528308,
+        lng: -0.3817812,
+        zoom: 12
+    });
+
+    map.addMarker({
+        lat: 51.528308,
+        lng: -0.3817812,
+        title: 'London',
+        infoWindow: {
+            content: '<p>London City</p>'
+        }
+    });
+
 });
